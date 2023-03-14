@@ -9,6 +9,7 @@ public class Main {
         task7();
     }
 
+
     public static void task1() {
         System.out.println("Задача 1");
         int ageHuman = 15;
