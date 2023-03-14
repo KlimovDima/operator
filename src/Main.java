@@ -77,7 +77,7 @@ public class Main {
         } else if ((people > capacityTrainSeat) && (people < capacityTrain)) {
             System.out.println("В вагоне остались только стоячие места");
         } else {
-            System.out.println("Вагон забит");
+            System.out.println("Вагон полностью забит");
         }
     }
 
