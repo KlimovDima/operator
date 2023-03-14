@@ -60,7 +60,7 @@ public class Main {
         int age = 20;
         if (age < 5) {
             System.out.println("Если возраст ребёнка " + age + " ,то ему нельяза кататься на атракционах");
-        } else if (age >= 5 && age < 14) {
+        } else if (age <= 14) {
             System.out.println("Если возраст ребёнка " + age + " ,то ему можно кататься на атракционе в сопровождении взрослого, без взрослого нельзя");
         } else {
             System.out.println("Если возраст равен " + age + " ,то можно кататься на атракционе самостоятельно");
@@ -83,15 +83,17 @@ public class Main {
 
     public static void task7() {
         System.out.println("Taks7");
-        int one = 1;
+        int one = 8;
         int two = 8;
-        int three = 2;
-        if (one > two && one > three) {
-            System.out.println(one);
-        } else if (two > one && two > three) {
-            System.out.println(two);
+        int three = 80;
+        if (one >= two && one > three) {
+            System.out.println("Большее число: " + one);
+        } else if (two >= one && two > three) {
+            System.out.println("Большее число: " + two);
+        } else if (one == two && two == three) {
+            System.out.println("Числа равны");
         } else {
-            System.out.println(three);
+            System.out.println("Большее число: " + three);
         }
     }
 }
